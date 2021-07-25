@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import './styleMenu.css';
 
@@ -7,8 +8,8 @@ import './styleMenu.css';
 function Menu() {
   return (
     <div className="menuContainer">
-      <a href="http://localhost:3000/" rel="noreferrer"><button className="buttonMenu">Home</button></a>
-      <a href="http://localhost:3000/clients" rel="noreferrer"><button className="buttonMenu">Clientes</button></a>
+      <Link to="/" ><button className="buttonMenu">Home</button></Link>
+      <Link to="/clients" rel="noreferrer"><button className="buttonMenu">Clientes</button></Link>
       {/* <a href="#"><button className="buttonMenu" rel="noreferrer">Produtos</button></a> */}
     </div>
 
