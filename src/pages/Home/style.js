@@ -7,7 +7,7 @@ export const Container = styled.div`
   section {
     height: auto;
     width: 100%;
-    background: #e2e2e2;
+    background: #fff;
     display: flex;
     justify-content: space-between;
 
@@ -20,6 +20,9 @@ export const Container = styled.div`
       border-radius: 10px;
       padding: 12px;
       margin: 20px;
+      border: 1px solid #ccc;
+
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     }
 
@@ -33,19 +36,21 @@ export const Container = styled.div`
 
     }
 
+    span, h3, h5, img
+    {
+      background: #fff;
+    }
+
     button:hover
     {
       background: #3A5FCD;
     }
-
-    .footer
-    {
-      position:absolute;
-      bottom:0;
-      width:100%;
-      text-align: center;
-      border: 1px solid blue;
-      background: yellow;
-    }
   }
+  @media(max-width: 720px)
+{
+  section
+  {
+    flex-direction: column;
+  }
+}
 `

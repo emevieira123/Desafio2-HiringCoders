@@ -5,6 +5,6 @@ export const Body = styled.div`
   height: 100vh;
 
   display: flex;
-  background: #e2e2e2;
+  background: #fff;
   flex-direction: column;
 `;

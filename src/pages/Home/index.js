@@ -5,6 +5,7 @@ import { Body } from '../../components/styleComponents';
 
 import api from '../../services/api';
 import Menu from '../../components/menu';
+import Fotter from '../../components/Fotter/footer';
 
 function Home() {
   const [data, setData] = useState([]);
@@ -38,11 +39,8 @@ function Home() {
             </div>
           ))}
         </section>
-
-        {/* <div className="footer">© Copyright 2021 | Todos os direitos reservados.</div> */}
-        <center><footer>© Copyright 2021 | Todos os direitos reservados.</footer></center>
       </Container>
-
+      <Fotter />
     </Body>
   );
 }

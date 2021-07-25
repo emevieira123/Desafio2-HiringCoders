@@ -3,8 +3,8 @@
 .menuContainer
 {
   width: 80%;
-  height: 50px;
-  background: #e2e2e2;
+  height: 60px;
+  background: #fff;
   margin: auto;
   border-bottom: 2px solid #cccccc;
   margin-top: 0;
@@ -20,7 +20,7 @@
   margin: 2px;
   font-size: 18px;
   font-family: sans-serif;
-  background: #e2e2e2;
+  background: #fff;
   cursor: pointer;
   border: 0;
 }
